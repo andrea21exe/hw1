@@ -1,0 +1,57 @@
+
+body{
+    margin: 0;
+    font-family: Montserrat, Helvetica;
+    position: relative;
+}
+
+header{
+    background-image: url(header_img.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7);
+    height: 80px;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 30px;
+    color:white;
+}
+
+a div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a div img {
+    width: 30px;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -150px;
+}
+
+footer span{
+    font-weight: bold;
+    color: white;
+}
+
+footer a img{
+    width: 30px;
+}

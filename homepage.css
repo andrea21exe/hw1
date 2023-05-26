@@ -1,0 +1,29 @@
+a.product-container {
+    box-sizing: border-box;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+a.product-container:hover {
+    background-color: silver;
+}
+
+.product-container img {
+    width: 100%;
+}
+
+section{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
